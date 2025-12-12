@@ -136,7 +136,7 @@ Validation must provide real-time user feedback and prevent invalid submissions.
 
 # ---------------------------------------------------
 
-# **🧩 Part 2 — React Admin Portal**
+# **Part 2 — React Admin Portal**
 
 
 
@@ -193,11 +193,15 @@ These optimizations must be applied especially to:
 
 # ---------------------------------------------------
 
-# **🧩 Part 3 — Backend (Node + Express + MongoDB + Redis)**
+# **Part 3 — Backend (Node + Express + MongoDB + Redis)**
 
 
 
 The backend must power **all functionality of both frontends**.
+
+* The backend must follow a clean and scalable folder structure, separating models, routes, controllers, middleware, utils, helpers, and configs. 
+* All API routes must be properly defined with appropriate HTTP status codes and consistent JSON responses. Ensure clean architectural separation, readable routing, and centralized error handling.
+
 
 ### **Schema & Relationship Design Requirement**
 
@@ -210,7 +214,7 @@ You must **design and fix all database schemas, validations, and entity relation
 * Soft delete behavior
 
 Schemas must be structured to support efficient queries and aggregation-based analytics.
-
+* For all the routes, provide proper status code and josn 
 ---
 
 ## **Backend Functional Requirements**
